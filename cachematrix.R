@@ -1,9 +1,12 @@
 ## The following fuctions below are used in creating a custom object that can store
 #and caches maatrix and its inverse.
 
-## makeCacheMatrix is a function that creates a matrix, and is also the first function
+## makeCacheMatrix is a function that creates a matrix
+# and is also the first function
+
 
 makeCacheMatrix <- function(x = matrix()) {
+        
         
 i <- NULL
   set <- function(y) {
